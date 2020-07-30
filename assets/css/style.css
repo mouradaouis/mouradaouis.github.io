@@ -1,5 +1,5 @@
 html, body { height: 100%;}
-.container {padding-top: 0px; padding-bottom: 0px; width: 1115px}
+.container {padding-top: 0px; margin-top: 30px; padding-bottom: 0px; width: 1115px}
 .subsection-title {color: rgb(85, 73, 173); font-weight: 700;}
 .section-title, .subsection-title {text-transform: uppercase; font-family: 'Roboto mono', monospace;}
 .left p {margin-top: 0px}
@@ -40,10 +40,17 @@ top: -8px;
 
 #experience {
     position: relative;
-    top: -60px;
+    top: -30px;
 }
 
 #education {
     position: relative;
     top: -35px;
+}
+
+#name-position a {
+    cursor: pointer;
+}
+.selected{
+    font-weight: 900;
 }
